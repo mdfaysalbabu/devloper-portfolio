@@ -1,75 +1,86 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-.header{
-    background:#FFF8F3 ;
-    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right, left;
 }
+
 /* header and nav style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     border: 0;
     padding: 18px 35px;
     height: 64px;
-    border-radius:5px ;
+    border-radius: 5px;
     background: #FD6E0A;
 }
-.navtitle{
+
+.navtitle {
     font-weight: 800;
     font-size: 45px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-left: 50px;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
+
 /* banner style */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     margin: 0 200px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 85px;
 
 }
-.sub-title{
+
+.sub-title {
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 20px;
 
 }
-.banner-paragrap{
+
+.banner-paragrap {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 }
+
 /* main section */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 /* about section style */
-.about{
-    margin-top: 130px;
+.about {
     background-color: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
@@ -77,31 +88,72 @@ main{
 
 
 }
-.section-title{
+
+.section-title {
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 30px;
 
 
 }
-.paragraph{
+
+.paragraph {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
 
 
 }
-.about-info-container{
-    display:flex ;
+
+.about-info-container {
+    display: flex;
     justify-content: space-around;
 }
-.about .info-title{
+
+.about .info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
-    
+
 }
+
+/* what i do style */
+section{
+    margin-top: 130px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.skill-description {
+    color: #757575;
+
+
+}
+/* resume style */
